@@ -1,0 +1,35 @@
+.happiness{
+    color: REd;
+    font-size: 400px;
+    margin-left: 200px;
+}
+
+img {
+    border: 10px groove red;
+
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+div2 {
+    width: 100px;
+    height: 20px;
+    background: orange;
+
+}
+
+p2{
+    width: 100px;
+    height: 20px;
+    background: red;
+}
+
+p{
+    width: 100px;
+    height: 20px;
+    background: blue;
+
+}

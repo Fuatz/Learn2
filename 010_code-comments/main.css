@@ -1,0 +1,5 @@
+/* adds a border to all images */
+img {
+    border: 10px groove blue;
+
+}
