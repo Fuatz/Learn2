@@ -1,0 +1,46 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    border-radius: 100%;
+    background-image: url("../img/puppy.jpg");
+
+    /*daireyi kaplıyor*/
+    /*background-size: cover;*/
+
+    /*içine sığdırabildiği kadar aynı fotograftan sıgdırıyor*/
+    /*background-repeat: no-repeat;*/
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    border: 15px solid red;
+    border-radius: 100%;
+    background-image: url("../img/puppy.jpg");
+
+    /*daireyi kaplıyor*/
+    background-size: cover;
+
+    /*içine sığdırabildiği kadar aynı fotograftan sıgdırıyor*/
+    background-repeat: no-repeat;
+}
+
+img {
+    border: 20px groove blue;
+    /*border-radius: 100%;*/
+}
+
+.bir {
+    border: 10px dotted red;
+}
+
+.two {
+    border: 10px dashed green;
+}
+
+.three {
+    border: 10px double yellow;
+    background-size: cover;
+    border-radius: 100%
+}

@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+}
+
+img {
+    border: 10px groove orange;
+}
+.one {
+    border: 30px dotted orange;
+}
+.two {
+    border: 30px dashed red;
+}
+.three {
+    border: 30px double blue;
+}
+
+
