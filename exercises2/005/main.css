@@ -1,0 +1,26 @@
+html {
+    background-color: blue;
+}
+div {
+    width: 800px;
+    height: 100%;
+    background-color: green;
+    box-sizing: border-box;
+    border: black solid 5px;
+    margin: 0 auto;
+}
+th {
+    border: black solid;
+}
+img {
+    border: yellow groove 20px;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+.Gecmis {
+    color: blue;
+}
+.Ana {
+    color: red;
+}

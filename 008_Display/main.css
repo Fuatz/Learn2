@@ -1,0 +1,49 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    border-radius: 100%;
+    background-image: url("../img/puppy.jpg");
+    display: inline-block;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    border: 15px solid red;
+    border-radius: 100%;
+    background-image: url("../img/puppy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    border: 20px groove blue;
+    /*border-radius: 100%;*/
+    display: block;
+}
+
+.bir {
+    border: 10px dotted red;
+}
+
+.two {
+    border: 10px dashed green;
+}
+
+.three {
+    border: 10px double yellow;
+    background-size: cover;
+    border-radius: 100%
+}
+
+/*o kısımda hiç bir şey göstermez*/
+/*display: none*/
+
+/*yanyana yazmaya yarıyor*/
+/*display: inline-block;*/
+/*display: inline*/
+
+/*altalta yazmaya yarıyor*/
+/*display: block;*/
+

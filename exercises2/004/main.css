@@ -1,0 +1,10 @@
+div {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border: 20px groove tomato;
+    border-radius: 50px;
+    background-image: url("../../img/puppy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

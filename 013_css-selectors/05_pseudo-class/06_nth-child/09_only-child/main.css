@@ -1,0 +1,4 @@
+/*div içinde tek article olanları kırmızıya boyar*/
+article:only-child {
+    color: red;
+}

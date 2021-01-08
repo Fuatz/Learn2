@@ -1,0 +1,47 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+img {
+    border: 20px groove blue;
+    border-radius: 100%;
+    padding: 40px;
+    margin: 100px;
+}
+
+.bir {
+    border: 10px dotted red;    s
+}
+
+.two {
+    border: 10px dashed green;
+}
+
+.three {
+    border: 10px double black;
+    background-size: cover;
+
+}
+
+
+/*Box>Margin>border>padding>content die sıralaması var dıştan içe*/
+
+/*img girilen kodlar hepsini içeriyor*/
+/*.bir .two .three için bir kod girilirse img için girilen kod deactive oluyor*/
+
+/*margin: 20px 60px*/
+
+/*Top Bottom için 20px Right Left için px*/
+
+/*margin: 10px 20 px 30px 40px*/
+/*TOP RİGHT BOT LEFT*/
+
+/*/margin 20px auto;*/
+/*TB 20 px sağ ve sol için ortalar*/
+
+/*margin: 0 auto;*/
+/*top ve bot boşluk yok sağ ve sol ortala*/
