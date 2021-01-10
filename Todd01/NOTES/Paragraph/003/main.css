@@ -1,0 +1,51 @@
+/*div içinde tek article olanları kırmızıya boyar*/
+article:only-child {
+    color: red;
+    }
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    }
+
+p {
+    margin: 20px;
+    }
+
+p::first-letter {
+    background-color: gray;
+    /*yazı tipi*/
+    font-family: cursive;
+    /*yazı boyutu*/
+    font-size: 36px;
+    line-height: .5;
+    }
+
+p::first-line {
+    color: red;
+    font-weight: 900;
+    }
+
+
+/* 1 INLİNE STYLES
+    2 IDs (id)
+     3 classes,attributes and pseudo-classes(class)
+      4 Elements and pseudo-elements (h,body,div)*/
+/* 2tane aynı sınıfdan varsa son yazılan vurgulanır*/
+#emph {
+    color: blue;
+    }
+.emphasize {
+    color: yellow;
+    }
+.cowboy {
+    color: green;
+    }
+
+h1 {
+    color: red;
+    }
+
+
+

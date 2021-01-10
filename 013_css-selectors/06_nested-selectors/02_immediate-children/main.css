@@ -3,7 +3,7 @@ body {
     text-align: center;
     padding-top: 36px;
 }
-
+/*"div"in altında olan yakın "p" ler*/
 div > p {
     color: red;
 }

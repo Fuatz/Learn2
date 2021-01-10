@@ -1,0 +1,102 @@
+html,body,form,label,input {
+    margin: 0;
+    padding: 0;
+    /*border: ;*/
+    box-sizing: border-box;
+    }
+
+html, body {
+    height: 100%;
+    font-size: 20px;
+    }
+
+html {
+    font-size: 20px;
+    }
+
+body {
+    /*display:  flex;*/
+    display: grid;
+    /*tabloyu enlemesine ortalar */
+    justify-content: center;
+    /*uzunlamasına */
+    align-items: center;
+    font-size: 20px;
+    }
+
+form {
+    display: flex;
+    /*tablo haline getiriyor*/
+    flex-direction: column;
+    border: 1px solid darkgray;
+    padding: 20px;
+    border-radius: 4px;
+    }
+
+label {
+    /*etiketlerin inputlarıyla yanyana gelmesini ayarlar */
+    display: flex;
+    /*etiketlerin input'la boşluğunu ayarlar */
+    justify-content: space-between;
+    /*etiketlerin ortalmasını sağlar (uzunlamasına)*/
+    align-items: center;
+    }
+
+input{
+    /*etiketler arası boşluk*/
+    margin-top: 10px;
+    border: 1px solid darkgray;
+    /*input giriş kısım büyüklüğü*/
+    font-size: 20px;
+    }
+
+[type=submit] {
+    margin-top: 10px;
+    /*submit kutusunın sınırı rengi*/
+    border: 1px solid darkgray;
+    }
+
+[type=submit]:hover {
+    background-color: green;
+    }
+
+[type=submit]:active {
+    background-color: yellow;
+    }
+/*focus koyarsan active iptal oluyor*/
+[type=submit]:focus {
+    background-color: blue;
+    }
+/*focus active farkını göstermek istiyoran button kullanmalısın*/
+
+button {
+    width: 400px;
+    height: 75px;
+    background-color: cornflowerblue;
+    border: 4px groove orange;
+    margin: 15px;
+    border-radius: 60%;
+    font-size: 35px;
+    color: whitesmoke;
+    }
+
+button:focus {
+    background-color: darkblue;
+    }
+
+button:hover {
+    background-color: red
+    }
+
+button:active {
+    background-color: goldenrod;
+    }
+
+input:required {
+    border: 1px solid red;
+    /*(255, 182, 193, 0.13) nedir?*/
+    background-color: rgba(255, 182, 193, 0.13);
+    }
+input:focus {
+    border: 2px solid green;
+    }

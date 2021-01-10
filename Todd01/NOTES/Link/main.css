@@ -1,0 +1,40 @@
+/* href,target [] ile kullanılır bir nevi attribute yani nitelik
+görsel özellik*/
+[href] {
+    border: 2px dashed green;
+    }
+
+[target="_blank"] {
+    color: red;
+    }
+
+[target="_self"] {
+    color: green;
+    }
+
+p {
+    margin: 7px;
+    }
+/*Pseudo olanlar böyle gösterilir a:link*/
+a:link {
+    color: green;
+    }
+a {
+    font-size: 100px;
+    }
+a:visited {
+    color: blue;
+    }
+/*üzerine gelme*/
+a:hover {
+    color: red;
+    }
+/*tıklama*/
+a:active {
+    color: yellow;
+    }
+/*basılı tutma*/
+a:focus {
+    color: purple;
+    }
+

@@ -3,7 +3,11 @@ body {
     text-align: center;
     padding-top: 36px;
 }
-
+/*div den sonra gelen ilk p yani divden sonra gelen ilk p*/
 div + p {
     color: red;
+}
+/*divden sonra gelen 2. p */
+div + p + p{
+    color: yellow;
 }

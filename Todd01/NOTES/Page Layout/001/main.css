@@ -1,0 +1,100 @@
+/*Css reset yaparız ki hepsini baştan kendimiz düzenleyebilelim*/
+/*html, body, div, img, section {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-size: 100%;*/
+/*    font: inherit;*/
+/*    vertical-align: baseline;*/
+/*    }*/
+
+
+
+
+
+
+/*div bölümü dairesel 3px kalınlık da çizgi halinde kırmızı
+ sınırlıdır ve her div bölümünün alt alta yazılmımştır*/
+div {
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    border-radius: 100%;
+    display: block;
+    }
+/* bütün imagesler dairesel 20px kalınlık da  mavi sınırı vardır
+paddingin top bottom left right dan 40px mesafe bırakılmıştır
+margin top bottom left right dan 100px mesafe bırakılmıştır*/
+
+/*genişlik 500px yükseklik 400 px 3px kalınlıkda çizgi sınır
+sınır dairesel görünüş yanyana
+bölümün arkasına gelen fotograf pup.jpg
+ve images de tekrarlanma olmaz fotograf dairesel büyüklüğe ayarlanır
+box büyüklüğü border sınırlarına çekilir
+margin de 10 px boşluk var yani sınır çizgisi dışında 10 px boşluk var*/
+
+section {
+    width: 500px;
+    height: 400px;
+    border: 3px solid red;
+    border-radius: 100%;
+    display: inline-block;
+    background-image: url("../../../pup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 10px;
+    }
+
+/*padding ile fotograf ile sınır çizgisi arasında 40px boşluk var */
+
+img {
+    border: 20px groove blue;
+    border-radius: 100%;
+    padding: 40px;
+    }
+/*sınırı 10 px kalınlıkda noktalıdır*/
+.first {
+    border: 10px dotted red;
+    }
+/*sınırı 10px kalınlıkda kesik çizgilidir*/
+.second {
+    border: 10px dashed green;
+    }
+/*snırı çift çizgi olup fotografın tamamen kaplanması sağlanmıştır
+ve display ile fotografı göstermesi engellenmiştir*/
+.third {
+    border: 10px double black;
+    background-size: cover;
+    display: none;
+    }
+
+/*o kısımda hiç bir şey göstermez*/
+/*display: none*/
+
+/*yanyana yazmaya yarıyor*/
+/*display: inline-block;*/
+/*display: inline*/
+
+/*altalta yazmaya yarıyor*/
+/*display: block;*/
+
+/*Box>Margin>border>padding>content die sıralaması var dıştan içe*/
+
+/*img girilen kodlar hepsini içeriyor*/
+/* .first .second .third için bir kod girilirse img için
+girilen kod deactive oluyor*/
+
+/*margin: 20px 60px*/
+/*         TP   RL*/
+
+/*Top Bottom için 20px Right Left için px*/
+
+/*margin: 10px 20 px 30px 40px*/
+/*         TOP RİGHT  BOT LEFT*/
+
+/*/margin 20px auto;*/
+/*TB 20 px sağ ve sol için ortalar*/
+
+/*margin: 0 auto;*/
+/*top ve bot boşluk yok sağ ve sol ortala*/

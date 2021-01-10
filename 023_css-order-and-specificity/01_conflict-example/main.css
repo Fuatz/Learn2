@@ -1,15 +1,17 @@
-h1 {
-    color: red;
-}
-
 #emph {
     color: blue;
-}
-
-.cowboy {
-    color: green;
-}
-
+    }
 .emphasize {
     color: yellow;
-}
+    }
+.cowboy {
+    color: green;
+    }
+
+h1 {
+    color: red;
+    }
+/* 1 INLİNE STYLES
+    2 IDs (id)
+     3 classes,attributes and pseudo-classes(class)
+      4 Elements and pseudo-elements (h,body,div)*/

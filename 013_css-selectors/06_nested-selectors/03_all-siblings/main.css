@@ -3,7 +3,7 @@ body {
     text-align: center;
     padding-top: 36px;
 }
-
+/*div den sonra gelen "p" lerin kırmızı olması*/
 div ~ p {
     color: red;
 }

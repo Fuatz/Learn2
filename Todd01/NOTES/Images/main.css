@@ -1,0 +1,47 @@
+.first {
+    border: 5px groove blue;
+    }
+.second {
+    border: 5px solid green;
+    }
+.third {
+    border: 5px dashed red;
+    }
+.fourth {
+    border: 5px double yellow;
+    }
+
+/*genişlik 500px yükseklik 400px
+div bölümünün arkasına fotograf koyduk
+sınırı çizgi ile belirttik 3px kırmızı renk
+sınırı dairesel yaptık
+backgroun imagesin tekrarlanması hakkında bir bilgi olmadıgı için
+fotograf tekrarlandı büyüklük fotografın kendi büyüklüğü*/
+div {
+    width: 500px;
+    height: 400px;
+    background-image: url("../../pup.jpg");
+    border: 3px solid red;
+    border-radius: 100%;
+    }
+
+/*genişlik 500px yükseklik 400 px
+    sınır 15px kalınlığında düz çizgi ve kırmızı renk de
+    sınır çizgisi dairesel
+    section bölümünün arkasına fotograf koyduk
+    fotografın büyüklüğünü tamamen kaplamısını sağladık
+    fotografın tekrarlanmamasını sağladık*/
+section{
+    width: 500px;
+    height: 400px;
+    border: 15px solid red;
+    border-radius: 100%;
+    background-image: url("../../pup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+/*src kodları [] ile kullanılır bir nevi nitelik
+görsel özellik*/
+[src] {
+    border: 2px dashed green;
+    }

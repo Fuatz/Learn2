@@ -1,0 +1,12 @@
+table, tr, td {
+    width: 100%;
+    border: 1px solid black;
+    }
+/*çift*/
+tr:nth-child(even) {
+    background-color: gray;
+    }
+/*tekil*/
+tr:nth-child(odd) {
+    background-color: darkgray;
+    }

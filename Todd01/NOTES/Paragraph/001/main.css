@@ -1,0 +1,78 @@
+/*bütün kodlama türleri için uygulanır*/
+* { margin: 50px; }
+
+/* paragraf türleri farklı olsa da class isimleri aynı olması
+yeterlidir*/
+.happiness {
+    color: blue;
+    }
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    }
+/*id ile vurgu yapmak istiyorsan
+ # ile belirtirsin ve 1 kere kullanabilrisin
+ Promote yı çıkarırsan section ayarları geçerli olacak*/
+#promote {
+    color: black;
+    background-color: orange;
+    }
+/*attribute olanlar [] ile kullanılır
+yani nitelikler ( görsel olarak ifade eder)*/
+[contenteditable] {
+    background-color: navajowhite;
+    }
+
+/**/
+#yaz {
+    color: green;
+    font-size: x-large;
+    text-align: center;
+    border: black dashed 5px ;
+    }
+#yazma {
+    color: red;
+    font-size: x-large;
+    }
+/**/
+/*div,p,section gibi bölümleri bu şekilde görsel olarak niteleyebilirsin
+attribute */
+div {
+    background-color: navajowhite;
+    cursor: zoom-in;
+    }
+div:hover {
+    background-color: green;
+    }
+p {
+    background-color: #6DC990;
+    cursor: crosshair;
+    }
+
+p:hover {
+    background-color: aquamarine;
+    }
+section {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    }
+
+article {
+    width: 50%;
+    height: 100px;
+    background-color: yellow;
+    }
+
+aside, footer {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    }
+
+
+
+
+/*font-size Yazı büyüklüğüdür*/

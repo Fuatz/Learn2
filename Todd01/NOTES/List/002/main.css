@@ -1,0 +1,28 @@
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+    }
+
+/* li sıralamasını en üstünde ki*/
+li:first-child {
+    color: lawngreen;
+    }
+/*li */
+li:last-child {
+    color: red;
+    }
+
+/*çift*/
+li:nth-child(even) {
+    color: blue;
+    }
+
+/*tekil*/
+li:nth-child(odd) {
+    color: orange;
+    }
+/**/
+ul:first-child {
+    border: blue solid 10px;
+    }

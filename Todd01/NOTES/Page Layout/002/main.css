@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    border: 1px solid black;
+    font-style: italic;
+}
+
+/* 1 INLİNE STYLES
+    2 IDs (#id)
+     3 classes,attributes and pseudo-classes(.class)
+      4 Elements and pseudo-elements (h,body,div)*/
+/*2tane aynı sınıf elementden vurgu varsa son yazılan uygulanır*/
+#emph {
+    color: red;
+    }
+
+.cowboy {
+    color: green;
+}
+
+.emphasize {
+    color: blue;
+}

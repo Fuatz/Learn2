@@ -1,0 +1,32 @@
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+    }
+
+
+
+/* SADECE div içindeki  p'ler*/
+div > p {
+    color: blue;
+    }
+
+/*divden sonra gelen  p'ler*/
+div ~ p {
+    color: #00FF00;
+    }
+
+/*divden sonra gelen second p*/
+div + p + p {
+    color: orange;
+    }
+
+/*!*divden sonra gelen first p*!*/
+/*div + p {*/
+/*    color: yellow;*/
+/*    }*/
+
+/*!*div içindeki p'lerin hepsi*!*/
+/*div p {*/
+/*    color: red;*/
+/*    }*/
